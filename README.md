@@ -2,7 +2,7 @@
 >
 > 该项目**仅适用于**对计算机技术有一定了解的同学，如果你不了解`Node.js`、`Docker`技术，也没有兴趣学习，那么该项目可能不适合您。
 
-> 📝 提示：该项目是一个完全**非官方**、**非商业**的项目，由于本人能力有限，因此无法保证该项目的稳定性和安全性，同时，也**无法提供一对一的技术支持**。如果你对该项目有任何疑问或建议，可以在 [Issues](https://github.com/vvbbnn00/USST-Lecture-Table-Calendar/issues)中提出，不过无法保证及时回复。
+> 📝 提示：该项目是一个完全**非官方**、**非商业**的项目，由于本人能力有限，因此无法保证该项目的稳定性和安全性，同时，也**无法提供一对一的技术支持**。如果你对该项目有任何疑问或建议，可以在 [Issues](https://github.com/SLctfTeam/USST-Lecture-Table-Calendar/issues)中提出，不过无法保证及时回复。
 
 ## 🤔 这是什么？
 
@@ -58,7 +58,7 @@ redis://default:<password>@<Public endpoint>
 2、点击下方按钮，使用`GitHub`账号登录`Vercel`
 ，并按照提示完成部署。部署过程中会要求输入环境变量，具体填写方式参照[环境变量](#-环境变量)一节。
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vvbbnn00/USST-Lecture-Table-Calendar&env=LOGIN_METHOD&env=JWGL_USERNAME&env=JWGL_PASSWORD&env=IDS_USERNAME&env=IDS_PASSWORD&env=SECRET_KEY&env=ENABLE_REMINDER&env=REMINDER_SECONDS&env=COURSE_TABLE_CACHE_TIME&env=REDIS_URL&env=REDIS_PREFIX)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SLctfTeam/USST-Lecture-Table-Calendar&env=LOGIN_METHOD&env=JWGL_USERNAME&env=JWGL_PASSWORD&env=IDS_USERNAME&env=IDS_PASSWORD&env=SECRET_KEY&env=ENABLE_REMINDER&env=REMINDER_SECONDS&env=COURSE_TABLE_CACHE_TIME&env=REDIS_URL&env=REDIS_PREFIX)
 
 3、等待部署完成，您可以在`Vercel`的控制台中找到您的项目的`域名（Domain）`，如下图所示：
 <div>
@@ -78,7 +78,7 @@ PS：您也可以自定义您的项目的`域名`，具体操作参照[官方文
 1、Clone 该项目到您的服务器上
 
 ```bash
-git clone https://github.com/vvbbnn00/USST-Lecture-Table-Calendar.git
+git clone https://github.com/SLctfTeam/USST-Lecture-Table-Calendar.git
 ```
 
 2、进入项目目录，编辑`docker.env`文件配置基础设置，并创建`docker.env.local`文件配置机密设置。具体参照[环境变量](#-环境变量)一节。
@@ -99,7 +99,7 @@ docker-compose up -d
 1、Clone 该项目到您的服务器上
 
 ```bash
-git clone https://github.com/vvbbnn00/USST-Lecture-Table-Calendar.git
+git clone https://github.com/SLctfTeam/USST-Lecture-Table-Calendar.git
 ```
 
 2、进入项目目录，安装依赖
@@ -158,6 +158,6 @@ npm run start
 
 如果您还是不知道如何操作，可以先在**各大搜索引擎**中搜索`如何导入URL订阅日历`，然后再搜索`<您的日历服务商> 如何导入URL订阅日历`，比如`华为手机 如何导入URL订阅日历`，相信您一定能找到答案。
 
-如果您经过**仔细的搜索**、**反复尝试**仍然无法导入，那么您可以首先在[Discussions](https://github.com/vvbbnn00/USST-Lecture-Table-Calendar/discussions)中发帖求助网友，或在[Issues](https://github.com/vvbbnn00/USST-Lecture-Table-Calendar/issues)中将您遇到的困难（**请务必详细描述您的问题，最好附带截图**）提交给我，我会尽快回复您。
+如果您经过**仔细的搜索**、**反复尝试**仍然无法导入，那么您可以首先在[Discussions](https://github.com/SLctfTeam/USST-Lecture-Table-Calendar/discussions)中发帖求助网友，或在[Issues](https://github.com/SLctfTeam/USST-Lecture-Table-Calendar/issues)中将您遇到的困难（**请务必详细描述您的问题，最好附带截图**）提交给我，我会尽快回复您。
 
-由于本人能力有限，因此无法保证及时回复。在提问前，请先查看一下[已解决的问题](https://github.com/vvbbnn00/USST-Lecture-Table-Calendar/issues?q=is%3Aissue+is%3Aclosed)中是否有您的问题，避免重复提问，谢谢！
+由于本人能力有限，因此无法保证及时回复。在提问前，请先查看一下[已解决的问题](https://github.com/SLctfTeam/USST-Lecture-Table-Calendar/issues?q=is%3Aissue+is%3Aclosed)中是否有您的问题，避免重复提问，谢谢！
